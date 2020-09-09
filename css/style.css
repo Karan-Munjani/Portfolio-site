@@ -75,10 +75,39 @@ li{
 
 .greeting-wrapper{
     display: grid;
-    min-height: 20em;
     justify-content: center;
     align-items: center;
-    
+    border: 2px dashed red;
+    min-height: 10em;
+}
+
+.intro-wrapper{
+    background-color: var(--secondaryColor);
+    display: grid;
+    grid-template-columns: repeat(1fr,2);
+    grid-template-rows: 3em 30em;
+    grid-template-areas: 
+        "nav-wrapper nav-wrapper"
+        "left-column right-column";
+
+}
+
+.nav-wrapper{
+    grid-area: nav-wrapper;
+    border: 1px dashed var(--borderColor);
+}
+
+.left-column{
+    grid-area: left-column;
+    border: 1px dashed var(--borderColor);
+
+}
+
+.right-column{
+    grid-area: right-column;
+    border: 1px dashed var(--borderColor);
+
+
 }
 
 @media screen and (max-width:1400px){
