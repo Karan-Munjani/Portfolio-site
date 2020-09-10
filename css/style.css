@@ -17,6 +17,7 @@
 html,body{
     margin:0;
     padding:0;
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 ,strong{
@@ -275,15 +276,12 @@ li{
 .para-1{
     margin-top:50px;
     margin-bottom:30px;
-    text-align: justify;
-    text-justify: inter-word;
+    
 
 }
 
 #about-para-2{
     margin-bottom:60px;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 .social-links{
