@@ -12,7 +12,7 @@
     /* --previewBg:rgba(248, 242, 227, 0.788); */
     --previewBg:rgb(251, 249, 243, 0.8);    --previewShadow:#f0ead6;
 
-    --btnColor:black;
+    --buttonColor:black;
 }
 
 
@@ -384,7 +384,7 @@ li{
     width: 100%;
     padding:10px 0;
     color:#fff;
-    background-color: var(--btnColor);
+    background-color: var(--buttonColor);
     border:none;
     border-radius: 5px;
 }
