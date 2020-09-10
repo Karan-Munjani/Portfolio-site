@@ -83,6 +83,7 @@ li{
     justify-content: center;
     align-items: center;
     min-height: 10em;
+    text-align:center;
 }
 
 .intro-wrapper{
@@ -267,10 +268,14 @@ li{
 
 .about-wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
     grid-gap: 5em;
     padding-bottom: 50px;
     padding-top: 50px;
+}
+
+.about-me{
+
 }
 
 .para-1{
@@ -370,11 +375,25 @@ li{
     }
 
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:400px){
     .intro-wrapper{
         grid-template-columns: 1fr;
         grid-template-areas: "nav-wrapper" "left-column" "right-column";
     }   
+    #preview-shadow{
+		max-width: 280px;
+		height: 180px;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+
+	#preview{
+		width: 280px;
+
+    }
     
+    
+
+
 }
 
