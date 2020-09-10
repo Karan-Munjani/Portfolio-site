@@ -24,7 +24,7 @@ for(var i=0;i<themeDots.length;i++){
 
 function setTheme(mode){
     if(mode=='light'){
-        document.getElementById('theme-style').href= "./css/default.css"
+        document.getElementById('theme-style').href= "./css/style.css"
     }
     
     if(mode=='blue'){
