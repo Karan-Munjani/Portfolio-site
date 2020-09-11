@@ -316,6 +316,11 @@ li{
     padding-bottom: 50px;
 }
 
+.post-wrapper .post:hover {
+    transition: .3s ease;
+   opacity: .8;
+}
+
 .post{
     border: 1px solid var(--borderColor);
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
