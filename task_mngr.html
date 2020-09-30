@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .tabs{
+            height: 40px;
+        }
+        .open-tabs{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+            max-height: 100%;
+            grid-template-rows: repeat(auto-fill,minmax(40px,1fr));
+
+        }
+        .tab{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            height: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="tabs">
+        
+        <div class="open-tabs">
+            <div class="tab">
+                <p>what is docker</p>
+                <p>*</p>
+            </div>
+            <div class="tab">
+                <p>what is docker</p>
+                <p>*</p>
+            </div>
+            
+        </div>
+    </div>
+    </body>
+</html>

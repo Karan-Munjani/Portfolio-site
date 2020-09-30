@@ -2,18 +2,18 @@
 
   
 :root{
-	--mainColor:#15202B;
-	--secondaryColor:#192734;
+	--secondaryColor:#121212 ;
+	--mainColor:#2b2b2b;
 
-	--borderColor:#164D56;
+	--borderColor:#576e72;
 
 	--mainText:#fff;
 	--secondaryText:#eeeeee;
 
 	--themeDotBorder:#FFF;
 
-	--previewBg:rgb(25, 39, 52, 0.8);
-	--previewShadow:#111921;
+	--previewBg:rgba(78, 78, 78, 0.8);
+	--previewShadow:#222222;
 
 
 	--buttonColor:#17a2b8;
